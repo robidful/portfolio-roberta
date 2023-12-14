@@ -171,6 +171,7 @@ body {
 .poem-p {
   font-family: "Lato", sans-serif;
   font-size: 18px;
+  margin-top: 30px;
 }
 
 .weather-row {
@@ -196,4 +197,58 @@ body {
 .poem-row {
   padding-top: 30px;
   padding-bottom: 60px;
+}
+
+.launch-button {
+  margin-right: 25px;
+  margin-top: 40px;
+  border-radius: 48px;
+  padding: 20px 28px;
+  background-color: #ffde9f;
+  font: "Mina", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  border: 3px solid #202020;
+  transition: all ease-in-out 200ms;
+}
+
+.launch-button:hover {
+  background-color: #fff2db;
+  color: #202020;
+  border: 3px solid #202020;
+  text-decoration: underline;
+  text-decoration-color: #202020;
+  text-decoration-thickness: 3px;
+}
+
+.weather-link,
+.clock-link,
+.poem-link {
+  color: #202020;
+  text-decoration: none;
+  font-family: "Mina", sans-serif;
+}
+
+.git-button {
+  margin-right: 25px;
+  margin-top: 40px;
+  border-radius: 48px;
+  padding: 20px 28px;
+  background-color: #f7e5fd;
+  font: "Mina", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  border: 3px solid #202020;
+  transition: all ease-in-out 200ms;
+}
+
+.git-button:hover {
+  background-color: #fff2db;
+  border: 3px solid #202020;
+}
+
+.fa-github {
+  color: #202020;
+  width: 24px;
+  height: 24px;
 }
