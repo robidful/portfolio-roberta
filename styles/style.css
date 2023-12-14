@@ -132,6 +132,68 @@ body {
   margin-top: 40px;
 }
 
-.row {
+.hero-row {
   border-bottom: 3px solid black;
+}
+
+.project-section {
+  padding: 70px 50px 50px 70px;
+}
+
+.project-title {
+  display: inline-block;
+  font-family: "Mina", sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.h2-deco {
+  width: 30%;
+  margin: -150px -90px;
+  padding: 0;
+}
+
+.weather-img {
+  border: 2px solid black;
+  width: 80%;
+  margin-left: 70px;
+}
+
+.weather-h2,
+.clock-h2,
+.poem-h2 {
+  font-family: "Mina", sans-serif;
+  font-weight: bold;
+}
+
+.weather-p,
+.clock-p,
+.poem-p {
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+}
+
+.weather-row {
+  padding-bottom: 60px;
+}
+
+.clock-row {
+  padding: 30px 70px 60px 70px;
+}
+
+.clock-img {
+  border: 2px solid black;
+  margin-right: 70px;
+  width: 95%;
+}
+
+.poem-img {
+  border: 2px solid black;
+  width: 80%;
+  margin-left: 70px;
+}
+
+.poem-row {
+  padding-top: 30px;
+  padding-bottom: 60px;
 }
