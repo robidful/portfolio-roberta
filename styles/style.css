@@ -149,6 +149,7 @@ body {
   font-family: "Mina", sans-serif;
   font-size: 40px;
   font-weight: bold;
+  padding-left: 7px;
 }
 
 .h2-deco {
@@ -158,9 +159,9 @@ body {
 }
 
 .weather-img {
-  border: 2px solid black;
-  width: 80%;
   margin-left: 70px;
+  width: 80%;
+  margin-top: -35px;
 }
 
 .weather-h2,
@@ -187,15 +188,15 @@ body {
 }
 
 .clock-img {
-  border: 2px solid black;
   margin-right: 70px;
-  width: 95%;
+  width: 90%;
+  margin-top: -35px;
 }
 
 .poem-img {
-  border: 2px solid black;
-  width: 80%;
   margin-left: 70px;
+  width: 80%;
+  margin-top: -35px;
 }
 
 .poem-row {
