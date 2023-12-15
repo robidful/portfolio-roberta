@@ -3,47 +3,51 @@ body {
   font-family: "Mina", sans-serif;
 }
 
-.navbar-back {
+.navbar-backgr {
   background-color: #202020;
 }
 
-.navbar-back a {
-  color: #ffffff;
-  padding: 15px;
-  margin-left: 30px;
-  margin-right: 30px;
+.navbar-backgr a {
   font-family: "Mina", sans-serif;
+  font-size: 23px;
+  margin-right: 18px;
+  margin-top: 9px;
+  margin-bottom: 9px;
 }
 
-.navbar-back a:hover {
+.navbar-backgr a:hover {
   color: white;
   text-decoration: underline;
   text-decoration-color: #ffde9f;
 }
 
-.navbar-back .navbar-brand {
-  font-size: 30px;
+.navbar-backgr .brand-name {
+  font-size: 30px !important;
   font-weight: bold;
-  margin-right: 500px;
+  margin-left: 15px;
 }
 
-.navbar-back .navbar-brand:hover {
+.navbar-backgr .brand-name:hover {
   text-decoration: none;
 }
 
-.navbar-back .menu-item {
-  font-size: 19px;
-  border-left: 1px solid white;
-  border-right: 1px solid white;
+.navbar-backgr .custom-navbar-link {
+  color: #ffde9f !important;
+  font-weight: bold !important;
 }
 
-.navbar-back .menu-item .contact-nav {
-  color: #ffde9f;
-  font-weight: bold;
-  font-size: 21px;
-}
-.navbar-back .menu-item .contact-nav:hover {
+.navbar-backgr .custom-navbar-link:hover {
+  text-decoration: underline;
   text-decoration-color: white;
+}
+
+.navbar-toggler-icon {
+  background-color: #ffde9f !important; /* Change the background color */
+  border-radius: 3px;
+}
+
+.custom-toggler {
+  border: 3px solid #ffffff !important;
 }
 
 .container.hero {
