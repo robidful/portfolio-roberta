@@ -252,8 +252,28 @@ body {
   border: 3px solid #202020;
 }
 
-.fa-github {
+.git-projects {
   color: #202020;
   width: 24px;
   height: 24px;
+}
+
+footer {
+  background-color: #ebf4ff;
+  padding: 40px 40px 20px 40px;
+  border-top: 3px solid #202020;
+}
+
+.footer-link {
+  font-size: 40px;
+  margin-right: 50px;
+}
+.icon-footer {
+  color: #202020;
+}
+
+.signature {
+  font-size: 16px;
+  font-family: monospace;
+  padding-top: 15px;
 }
