@@ -415,6 +415,11 @@ footer {
   .hero-text-section {
     width: 100% !important;
   }
+
+  .webdev {
+    text-decoration: underline;
+    text-decoration-color: #f985e4;
+  }
   .hero-pic-section {
     display: none;
   }
@@ -424,7 +429,7 @@ footer {
   .poem-img {
     display: none;
   }
-  /*things to fix */
+
   .hero-welcome {
     font-size: 25px;
     padding-top: 10px;
@@ -472,7 +477,8 @@ footer {
     text-align: center;
   }
   .weather-b,
-  .poem-b {
+  .poem-b,
+  .clock-b-1 {
     margin: auto;
     display: block;
     padding: 10px 17px;
@@ -491,15 +497,22 @@ footer {
     margin: auto;
     text-align: center;
   }
-
   .clock-buttons-container {
     position: relative;
     margin-left: auto;
   }
 
-  .clock-b1 {
-    padding: 10px 17px !important;
-    font-size: 15px;
-    margin-bottom: 10px;
+  .poem-h2 {
+    margin-top: 30px;
+  }
+  .clock-b {
+    position: relative;
+  }
+  .icon-container {
+    display: block;
+    margin: auto;
+  }
+  .footer-link {
+    margin: auto;
   }
 }
