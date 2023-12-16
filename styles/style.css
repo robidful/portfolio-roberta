@@ -424,4 +424,82 @@ footer {
   .poem-img {
     display: none;
   }
+  /*things to fix */
+  .hero-welcome {
+    font-size: 25px;
+    padding-top: 10px;
+    padding-left: 20px;
+  }
+  .hero-text {
+    font-size: 42px;
+    padding-left: 20px;
+  }
+
+  .hero-description {
+    padding-left: 20px;
+    max-width: 100%;
+  }
+  .hero-button-1 {
+    margin-left: 20px;
+    padding: 12px 17px;
+    font-size: 17px;
+  }
+
+  .hero-button-2 {
+    padding: 12px 17px;
+    font-size: 17px;
+  }
+
+  .project-section {
+    padding: 45px 30px;
+  }
+  .project-title {
+    font-size: 32px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #ffde9f;
+  }
+  .h2-deco {
+    display: none;
+  }
+
+  .weather-h2,
+  .weather-p,
+  .poem-h2,
+  .poem-p,
+  .clock-p {
+    margin-left: auto;
+    text-align: center;
+  }
+  .weather-b,
+  .poem-b {
+    margin: auto;
+    display: block;
+    padding: 10px 17px;
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+  .git-button {
+    margin: auto;
+    display: block;
+    padding: 5px 10px;
+  }
+  .clock-row {
+    padding: 0;
+  }
+  .clock-h2 {
+    margin: auto;
+    text-align: center;
+  }
+
+  .clock-buttons-container {
+    position: relative;
+    margin-left: auto;
+  }
+
+  .clock-b1 {
+    padding: 10px 17px !important;
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
 }
