@@ -64,7 +64,7 @@ body {
 .hero-welcome {
   font-family: "Mina", sans-serif;
   font-size: 28px;
-  padding: 120px 0 20px 60px;
+  padding: 100px 0 20px 60px;
 }
 
 .hero-text {
@@ -75,9 +75,14 @@ body {
 }
 
 .hero-description {
-  font-family: "Mina", sans-serif;
-  font-size: 15px;
-  padding: 0 0 20px 60px;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  padding: 0 60px 20px 60px;
+}
+.ideas-text {
+  text-decoration: underline;
+  text-decoration-color: #bbf0a3;
+  text-decoration-style: double;
 }
 
 .hero-button-1 {
@@ -442,7 +447,9 @@ footer {
 
   .hero-description {
     padding-left: 20px;
+    padding-right: 20px;
     max-width: 100%;
+    font-size: 15px;
   }
   .hero-button-1 {
     margin-left: 20px;
@@ -466,6 +473,12 @@ footer {
   }
   .h2-deco {
     display: none;
+  }
+
+  .weather-p,
+  .clock-p,
+  .poem-p {
+    font-size: 17px;
   }
 
   .weather-h2,
@@ -514,5 +527,8 @@ footer {
   }
   .footer-link {
     margin: auto;
+  }
+  .signature {
+    font-size: 12px;
   }
 }
