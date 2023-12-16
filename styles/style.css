@@ -330,7 +330,7 @@ footer {
 }
 
 /* third breaking point */
-@media (max-width: 810px) {
+@media (max-width: 820px) {
   .navbar-backgr a {
     font-size: 17px;
   }
@@ -393,9 +393,9 @@ footer {
     margin-left: -40px;
   }
 
-  .clock-b1 {
-    position: absolute;
-    margin-left: -10px;
+  .clock-buttons-container {
+    position: relative;
+    margin-left: -40px;
   }
 
   .clock-b {
