@@ -283,11 +283,54 @@ footer {
 }
 
 /* first breaking point */
-@media (max-width: 1200px) {
+@media (max-width: 1215px) {
+  .hero-welcome {
+    padding-top: 55px;
+  }
+  .hero-text {
+    font-size: 65px;
+  }
 }
 
 /* second breaking point */
-@media (max-width: 768px) {
+@media (max-width: 1125px) {
+  .hero-text-section,
+  .hero-pic-section {
+    width: 100% !important;
+  }
+  .hero-text-section {
+    padding-left: 0;
+    border-right: none;
+    border-bottom: 3px solid #202020;
+  }
+  .hero-welcome {
+    padding-top: 60px;
+    padding-left: 35px;
+  }
+  .hero-text {
+    font-size: 75px;
+    padding-left: 35px;
+  }
+  .hero-description {
+    padding-left: 35px;
+    width: 600px;
+  }
+  .hero-button-1 {
+    margin-left: 35px;
+  }
+  .pic-roberta {
+    width: 62%;
+    display: block;
+    margin-left: 150px;
+    margin-top: 25px;
+  }
+  .h2-deco {
+    margin-left: -75px;
+  }
+}
+
+/* third breaking point */
+@media (max-width: 810px) {
   .navbar-backgr a {
     font-size: 17px;
   }
@@ -302,7 +345,7 @@ footer {
     padding-left: 20px;
   }
   .hero-text {
-    font-size: 75px;
+    font-size: 80px;
     padding-left: 20px;
   }
 
@@ -326,8 +369,42 @@ footer {
   .h2-deco {
     margin: -150px -50px;
   }
-  .weather-img {
+  .weather-img,
+  .poem-img {
     margin-left: 20px;
     margin-top: -17px;
+  }
+  .weather-h2,
+  .weather-p,
+  .poem-h2,
+  .poem-p {
+    margin-left: -20px;
+  }
+  .weather-b,
+  .poem-b {
+    margin-left: -20px;
+    margin-top: 5px;
+  }
+  .clock-h2 {
+    margin-top: -17px;
+    margin-left: -40px;
+  }
+  .clock-p {
+    margin-left: -40px;
+  }
+
+  .clock-b1 {
+    position: absolute;
+    margin-left: -10px;
+  }
+
+  .clock-b {
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 0px;
+  }
+
+  .clock-img {
+    width: 100%;
   }
 }
