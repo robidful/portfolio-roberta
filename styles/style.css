@@ -418,4 +418,10 @@ footer {
   .hero-pic-section {
     display: none;
   }
+
+  .weather-img,
+  .clock-img,
+  .poem-img {
+    display: none;
+  }
 }
