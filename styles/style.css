@@ -426,6 +426,14 @@ footer {
   }
 }
 
+/* about page first breaking point */
+
+@media (max-width: 990px) {
+  .about-pic {
+    display: none;
+  }
+}
+
 /* third breaking point */
 @media (max-width: 820px) {
   .navbar-backgr a {
