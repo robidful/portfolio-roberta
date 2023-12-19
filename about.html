@@ -68,40 +68,92 @@
     </nav>
 
     <div class="about-section container">
-      <div class="row">
+      <div class="row about-row">
         <div class="col-lg-6">
-          <img src="images/about-picture.svg" class="img-fluid" />
+          <img src="images/about-picture.svg" class="img-fluid about-pic" />
         </div>
         <div class="col-lg-6">
-          <h1>Hey there! I'm Roberta 👋</h1>
-          <h3>Web developer who loves turning ideas into kickass websites.</h3>
-          <h2>Why We Could Make a Great Team</h2>
-          <p>
-            🚀 Crafting User-Friendly Sites: Ever been to a website and thought,
-            "This is smooth!"? That's the vibe I aim for. I'm all about creating
-            websites that not only look good but are a breeze to use.
-            <br />
-            💡 Solving Web Mysteries: Got a website puzzle that's driving you
-            nuts? Count me in to crack it. Bugs, design tweaks, you name it—I'm
-            on it like a cat on a laser pointer.
+          <h1 class="about-title">Hey there! I'm Roberta 👋</h1>
+          <h3 class="about-description">
+            Web developer who loves
+            <span class="ideas">turning ideas into kickass websites.</span>
+          </h3>
+          <h2 class="about-second-title">Why We Could Make a Great Team</h2>
+          <p class="about-first-paragraph">
+            🚀
+            <span class="about-p-intro">Crafting User-Friendly Sites:</span>
+            Ever been to a website and thought, "This is smooth!"? That's the
+            vibe I aim for. <br />
+            I'm all about creating websites that not only look good, but are a
+            breeze to use.
           </p>
-          <button><a href="">See my projects</a></button>
+          <p class="about-first-paragraph">
+            💡 <span class="about-p-intro">Solving Web Mysteries:</span> Got a
+            website puzzle that's driving you nuts? I'm here to help untangle
+            it. Bugs, design tweaks, you name it — I'm on it like a cat on a
+            laser pointer.
+          </p>
+          <button class="about-button">
+            <a href="" class="about-link">See my projects</a>
+          </button>
         </div>
       </div>
+    </div>
 
-      <div class="contact-section">
-        <h2>Let's Team Up!</h2>
-        <p>
-          🌟 Teamwork Makes the Dream Work: I believe in collaboration. Whether
-          it's with designers or clients, I'm all about turning ideas into
-          reality together.
-          <br />
-          📬 Ready to Chat: Got a web project on your mind? Let's make it
-          happen! Shoot me an email at
-          <a href="mailto:roberta.coding@gmail.com">roberta.coding@gmail.com</a>
-          or connect on [LinkedIn/Twitter/GitHub]. Can't wait to hear from you!
+    <div class="contact-row">
+      <div class="contact-block">
+        <h2 class="contact-title">Let's Team Up!</h2>
+
+        <p class="about-second-paragraph">
+          <span class="about-p-intro">📬 Ready to Chat:</span> Got a web project
+          on your mind? Let's make it happen.
+        </p>
+        <p class="contact-me-paragraph">
+          Shoot me an email at
+          <a href="mailto:roberta.coding@gmail.com" class="contact-link"
+            >roberta.coding@gmail.com</a
+          >
+          or connect on
+          <a
+            href="https://www.linkedin.com/in/robertadicio/"
+            class="contact-link"
+            >LinkedIn.</a
+          >
         </p>
       </div>
     </div>
+
+    <footer>
+      <div class="container icon-container">
+        <div class="wrapper d-flex justify-content-center">
+          <a
+            href="https://github.com/robidful"
+            target="_blank"
+            class="footer-link"
+          >
+            <i class="fa-brands fa-github icon-footer"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/robertadicio/"
+            target="_blank"
+            class="footer-link"
+            ><i class="fa-brands fa-linkedin icon-footer"></i
+          ></a>
+          <a
+            href="mailto:roberta.coding@gmail.com"
+            target="_blank"
+            class="footer-link"
+          >
+            <i class="fa-solid fa-envelope icon-footer"></i>
+          </a>
+        </div>
+      </div>
+      <div class="signature text-center">
+        This website was built by Roberta Di Cio and it is
+        <a href="https://github.com/robidful/portfolio-roberta" target="_blank"
+          >open-sourced on Github</a
+        >
+      </div>
+    </footer>
   </body>
 </html>
