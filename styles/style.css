@@ -631,4 +631,91 @@ footer {
   .signature {
     font-size: 12px;
   }
+
+  /* about page */
+  .about-row {
+    padding-bottom: 30px;
+    border-bottom: 3px solid black;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .about-pic {
+    display: none;
+  }
+
+  .about-title {
+    margin-top: 40px;
+    font-family: "Mina", sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+  }
+
+  .about-description {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-family: "Lato", sans-serif;
+    font-size: 17px;
+  }
+  .ideas {
+    text-decoration: underline;
+    text-decoration-color: #ffde9f;
+  }
+
+  .about-second-title {
+    font-family: "Mina", sans-serif;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-size: 26px;
+  }
+
+  .about-first-paragraph {
+    font-family: "Lato", sans-serif;
+    font-size: 17px;
+    margin-top: 12px;
+    margin-bottom: 10px;
+  }
+
+  .about-p-intro {
+    font-weight: bold;
+    font-family: "Mina", sans-serif;
+    font-size: 18px;
+  }
+
+  .about-button {
+    margin: auto;
+    display: block;
+    padding: 12px 17px;
+    font-size: 17px;
+  }
+
+  .contact-row {
+    background-color: #fff2db;
+    padding: 30px;
+  }
+
+  .ready {
+    display: none;
+  }
+
+  .about-second-paragraph,
+  .contact-me-paragraph {
+    text-align: center;
+    font-size: 19px;
+    font-family: "Lato", sans-serif;
+  }
+
+  .contact-title {
+    font-family: "Mina", sans-serif;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 27px;
+    text-align: center;
+  }
+  .contact-link {
+    text-decoration: underline;
+    color: #202020;
+    text-decoration-color: #f985e4;
+    font-weight: bold;
+  }
 }
